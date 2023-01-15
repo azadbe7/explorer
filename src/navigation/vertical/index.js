@@ -19,14 +19,14 @@ function processMenu() {
       title: 'blockchains',
       children: blockchains,
       tag: `${blockchains.length}`,
-      icon: 'https://explorer.nodexcapital.com/logox.svg',
+      icon: 'https://explorer.aknodes.gives/logox.svg',
     })
   }
   chainMenus.push({ header: 'LINKS' })
   if (isTestnet()) {
     chainMenus.push({
-      title: 'NodeX Capital Explorer',
-      href: 'https://explorer.nodexcapital.com',
+      title: 'Azad Explorer',
+      href: 'https://explorer.aknodes.gives',
       icon: 'ChromeIcon',
     })
   } else {
